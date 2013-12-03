@@ -1,8 +1,9 @@
-#here is a loop in ruby
-
 1.upto(100) do |i|
-  puts i
+  if i % 3 == 0 && i % 5 == 0
+    puts "FizzBuzz"
+  else 
+    puts i
+  end
 end
 
 
-# now see if you can do fizzbuzz. Its not that much different than JS with modulus % operators
